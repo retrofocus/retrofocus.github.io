@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Retrofocus&#39; Blog</title>
+    <link>https://retrofocus.github.io/post/</link>
+      <atom:link href="https://retrofocus.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Retrofocus All Rights Reserved.</copyright><lastBuildDate>Wed, 01 Jan 2020 00:42:33 +0900</lastBuildDate>
+    <image>
+      <url>https://retrofocus.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://retrofocus.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://retrofocus.github.io/post/first-post/</link>
+      <pubDate>Wed, 01 Jan 2020 00:42:33 +0900</pubDate>
+      <guid>https://retrofocus.github.io/post/first-post/</guid>
+      <description>&lt;p&gt;I am now trying to solve $$\mathbf{x}^T A \mathbf{x} = 0$$&lt;/p&gt;
+&lt;h2 id=&#34;code-highlight&#34;&gt;Code highlight&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = 1
+if a == 1:
+    print(&amp;quot;hello&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
