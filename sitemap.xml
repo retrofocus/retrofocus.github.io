@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://retrofocus.github.io/post/first-post/</loc>
-    <lastmod>2020-01-01T00:42:33+09:00</lastmod>
+    <loc>https://retrofocus.github.io/post/how-to-update-blog/</loc>
+    <lastmod>2020-03-21T08:43:15+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://retrofocus.github.io/post/</loc>
-    <lastmod>2020-01-01T00:42:33+09:00</lastmod>
+    <lastmod>2020-03-21T08:43:15+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://retrofocus.github.io/</loc>
+    <lastmod>2020-03-21T08:43:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retrofocus.github.io/post/first-post/</loc>
     <lastmod>2020-01-01T00:42:33+09:00</lastmod>
   </url>
   

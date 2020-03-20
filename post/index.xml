@@ -5,12 +5,24 @@
     <link>https://retrofocus.github.io/post/</link>
       <atom:link href="https://retrofocus.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Retrofocus All Rights Reserved.</copyright><lastBuildDate>Wed, 01 Jan 2020 00:42:33 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Retrofocus All Rights Reserved.</copyright><lastBuildDate>Sat, 21 Mar 2020 08:43:15 +0900</lastBuildDate>
     <image>
       <url>https://retrofocus.github.io/img/icon-192.png</url>
       <title>Posts</title>
       <link>https://retrofocus.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>How to Update Blog</title>
+      <link>https://retrofocus.github.io/post/how-to-update-blog/</link>
+      <pubDate>Sat, 21 Mar 2020 08:43:15 +0900</pubDate>
+      <guid>https://retrofocus.github.io/post/how-to-update-blog/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;hugo new post/title.md&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>First Post</title>
