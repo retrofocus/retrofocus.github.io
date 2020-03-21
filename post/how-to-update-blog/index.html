@@ -28,7 +28,11 @@
   
     
   
-  <meta name="description" content=" hugo new post/title.md   ">
+  <meta name="description" content="Just note to self.
+ hugo new post/title.md ./deploy.sh  When private email warning appears, make sure to check your email is not private:
+git config --local user.email  If you&#39;ve committed with your private email, change history by
+git filter-branch -f --env-filter &quot;GIT_AUTHOR_NAME=&#39;yourname&#39;; GIT_AUTHOR_EMAIL=&#39;9999&#43;userid@users.noreply.github.com&#39;; GIT_COMMITTER_NAME=&#39;yourname&#39;; GIT_COMMITTER_EMAIL=&#39;9999&#43;userid@users.noreply.github.com&#39;;&quot; HEAD  &lsquo;yourname&rsquo; is checked by &lsquo;git log&rsquo; command. &lsquo;999&#43;userid&rsquo; can be found in your github setting.
+reference https://www.d-wood.com/blog/2019/05/24_11229.html">
 
   
   <link rel="alternate" hreflang="en-us" href="https://retrofocus.github.io/post/how-to-update-blog/">
@@ -226,7 +230,11 @@
   <meta property="og:site_name" content="Retrofocus&#39; Blog">
   <meta property="og:url" content="https://retrofocus.github.io/post/how-to-update-blog/">
   <meta property="og:title" content="How to Update Blog | Retrofocus&#39; Blog">
-  <meta property="og:description" content=" hugo new post/title.md   "><meta property="og:image" content="https://retrofocus.github.io/img/icon-192.png">
+  <meta property="og:description" content="Just note to self.
+ hugo new post/title.md ./deploy.sh  When private email warning appears, make sure to check your email is not private:
+git config --local user.email  If you&#39;ve committed with your private email, change history by
+git filter-branch -f --env-filter &quot;GIT_AUTHOR_NAME=&#39;yourname&#39;; GIT_AUTHOR_EMAIL=&#39;9999&#43;userid@users.noreply.github.com&#39;; GIT_COMMITTER_NAME=&#39;yourname&#39;; GIT_COMMITTER_EMAIL=&#39;9999&#43;userid@users.noreply.github.com&#39;;&quot; HEAD  &lsquo;yourname&rsquo; is checked by &lsquo;git log&rsquo; command. &lsquo;999&#43;userid&rsquo; can be found in your github setting.
+reference https://www.d-wood.com/blog/2019/05/24_11229.html"><meta property="og:image" content="https://retrofocus.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://retrofocus.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -278,7 +286,7 @@
       "url": "https://retrofocus.github.io/img/icon-512.png"
     }
   },
-  "description": " hugo new post/title.md   "
+  "description": "Just note to self.\n hugo new post/title.md ./deploy.sh  When private email warning appears, make sure to check your email is not private:\ngit config --local user.email  If you've committed with your private email, change history by\ngit filter-branch -f --env-filter \u0026quot;GIT_AUTHOR_NAME='yourname'; GIT_AUTHOR_EMAIL='9999+userid@users.noreply.github.com'; GIT_COMMITTER_NAME='yourname'; GIT_COMMITTER_EMAIL='9999+userid@users.noreply.github.com';\u0026quot; HEAD  \u0026lsquo;yourname\u0026rsquo; is checked by \u0026lsquo;git log\u0026rsquo; command. \u0026lsquo;999+userid\u0026rsquo; can be found in your github setting.\nreference https://www.d-wood.com/blog/2019/05/24_11229.html"
 }
 </script>
 
@@ -536,10 +544,20 @@
   <div class="article-container">
 
     <div class="article-style">
-      <ol>
+      <p>Just note to self.</p>
+<ol>
 <li>hugo new post/title.md</li>
-<li></li>
+<li>./deploy.sh</li>
 </ol>
+<p>When private email warning appears, make sure to check your email is not private:</p>
+<pre><code>git config --local user.email
+</code></pre>
+<p>If you've committed with your private email, change history by</p>
+<pre><code>git filter-branch -f --env-filter &quot;GIT_AUTHOR_NAME='yourname'; GIT_AUTHOR_EMAIL='9999+userid@users.noreply.github.com'; GIT_COMMITTER_NAME='yourname'; GIT_COMMITTER_EMAIL='9999+userid@users.noreply.github.com';&quot; HEAD
+</code></pre>
+<p>&lsquo;yourname&rsquo; is checked by &lsquo;git log&rsquo; command. &lsquo;999+userid&rsquo; can be found in your github setting.</p>
+<h3 id="reference">reference</h3>
+<p><a href="https://www.d-wood.com/blog/2019/05/24_11229.html">https://www.d-wood.com/blog/2019/05/24_11229.html</a></p>
 
     </div>
 

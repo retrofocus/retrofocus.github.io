@@ -17,10 +17,20 @@
       <link>https://retrofocus.github.io/post/how-to-update-blog/</link>
       <pubDate>Sat, 21 Mar 2020 08:43:15 +0900</pubDate>
       <guid>https://retrofocus.github.io/post/how-to-update-blog/</guid>
-      <description>&lt;ol&gt;
+      <description>&lt;p&gt;Just note to self.&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;hugo new post/title.md&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;./deploy.sh&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;When private email warning appears, make sure to check your email is not private:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config --local user.email
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you&#39;ve committed with your private email, change history by&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git filter-branch -f --env-filter &amp;quot;GIT_AUTHOR_NAME=&#39;yourname&#39;; GIT_AUTHOR_EMAIL=&#39;9999+userid@users.noreply.github.com&#39;; GIT_COMMITTER_NAME=&#39;yourname&#39;; GIT_COMMITTER_EMAIL=&#39;9999+userid@users.noreply.github.com&#39;;&amp;quot; HEAD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lsquo;yourname&amp;rsquo; is checked by &amp;lsquo;git log&amp;rsquo; command. &amp;lsquo;999+userid&amp;rsquo; can be found in your github setting.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.d-wood.com/blog/2019/05/24_11229.html&#34;&gt;https://www.d-wood.com/blog/2019/05/24_11229.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
